@@ -1,15 +1,15 @@
+> Find more examples and short videos on development & deployments with docker, aws etc on [devteds.com](https://devteds.com)
+
 # Consul Cluster on Docker Swarm Cluster
 
-Run consul cluster as containers on swarm cluster. 
-
-*This is a test and I haven't used such setup in production environment.*
+Run consul cluster as containers on swarm cluster. This is an example code created while testing consul on docker swarm and it is very basic.
 
 *Tested on docker version Docker version 17.12.0-ce, build c97c6d6*
 
 ## Swarm Cluster
-Spin up 3 nodes on Digital Ocean (droplets) and create a swarm cluster of those 3 nodes
+Spin up 3 nodes (droplets) on DigitalOcean and create a swarm cluster of those 3 nodes
 
-Optionally, edit `swarm.sh` to change Digital Ocean droplet configurations.
+Optionally, edit `swarm.sh` to change DigitalOcean droplet configs.
 
 ```
 export DO_TOKEN=<DigitalOcean API Access Token>
